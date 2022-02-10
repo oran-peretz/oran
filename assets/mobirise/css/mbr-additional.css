@@ -707,26 +707,76 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sWmoSM7KyF {
-  padding-top: 6rem;
-  padding-bottom: 0rem;
-  background-color: #bbbbbb;
-}
-.cid-sWmoSM7KyF .mbr-section-title,
-.cid-sWmoSM7KyF .mbr-text,
-.cid-sWmoSM7KyF .mbr-section-btn {
-  text-align: center;
-}
-.cid-sWmoSM7KyF .video-wrapper {
+.cid-sX1j8OHXpH .icon-wrapper {
   margin: auto;
+  background-color: #6592e6;
+  color: #fafafa;
+  border-radius: 50%;
+  font-size: 48px;
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+  transition: all 0.25s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
-.cid-sWmoSM7KyF .video-wrapper iframe {
+.cid-sX1j8OHXpH .icon-wrapper span {
+  margin-left: 10px;
+}
+.cid-sX1j8OHXpH .modalWindow {
+  position: fixed;
+  z-index: 5000;
+  left: 0;
+  top: 0;
+  background-color: rgba(61, 61, 61, 0.65);
   width: 100%;
+  height: 100%;
+}
+.cid-sX1j8OHXpH .modalWindow .modalWindow-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cid-sX1j8OHXpH .modalWindow .modalWindow-video {
+  height: calc(44.9943757vw);
+  width: 80vw;
+  margin: 0 auto;
+}
+.cid-sX1j8OHXpH .close {
+  position: fixed;
+  opacity: 0.5;
+  font-size: 22px;
+  font-weight: 300;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  top: 2.5rem;
+  right: 2.5rem;
+  border: 2px solid #fff;
+  text-shadow: none;
+  z-index: 5;
+  transition: opacity 0.3s ease;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.cid-sX1j8OHXpH .close:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff;
+}
+.cid-sX1j8OHXpH H1 {
+  color: #000000;
+}
+.cid-sX1j8OHXpH .mbr-text,
+.cid-sX1j8OHXpH .mbr-media {
+  color: #000000;
 }
 .cid-sWiO6Id4GA {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #232323;
+  background-color: #ffffff;
 }
 @media (min-width: 992px) {
   .cid-sWiO6Id4GA .carousel {
@@ -1778,31 +1828,6 @@ a {
   text-align: center;
 }
 .cid-sWju2KsHSA .mbr-text {
-  text-align: center;
-}
-.cid-sWsEOnFBhU {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-@media (min-width: 992px) {
-  .cid-sWsEOnFBhU .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-sWsEOnFBhU .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-@media (max-width: 767px) {
-  .cid-sWsEOnFBhU .image-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sWsEOnFBhU .mbr-text {
-  text-align: center;
-}
-.cid-sWsEOnFBhU .name {
   text-align: center;
 }
 .cid-sWosV6stZV {
